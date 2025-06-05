@@ -1,0 +1,11 @@
+os
+glob
+opencv
+PIL
+numpy
+pandas
+math
+matplotlib
+seaborn
+jupyter
+scikit-learn
