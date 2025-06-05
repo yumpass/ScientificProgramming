@@ -82,9 +82,6 @@ This project implements a complete pipeline for **speckle pattern analysis** fro
 4. **Run Visualization:**  
    Use `src/visualization/visualization.py` or provided Jupyter notebooks to produce plots (saved in `/results/figures/`).
 
-5. **Jupyter Notebooks:**  
-   For step-by-step demonstrations, open and run any notebook in `src/notebooks/`.
-
 ---
 
 ## 🛠️ Methods Summary
