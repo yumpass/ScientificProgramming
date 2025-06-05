@@ -9,28 +9,19 @@ This project implements a complete pipeline for **speckle pattern analysis** fro
 ---
 
 ## 🗂️ Directory and File Structure
-
+```
 ├── data/
 │ └── raw/ # Raw .tiff images (input specklegrams)
-│ └── processed/
-│ ├── 90x90/ # Processed 90x90 images
-│ ├── 3x3/ # Feature images (3x3 blocks)
-│ ├── intensity_90x90.csv # Intensity dataframe
-│ └── features.csv # Feature dataframe (mean blocks + gradient + category)
+│ └── processed/ #Processed 90x90 and feature images
 ├── results/
 │ ├── tables/ # Output CSVs for statistics, metrics, and summaries
 │ └── figures/
-│ ├── kde/ # KDE plots per feature
-│ └── box/ # Boxplots per feature
-│ └── kde_grid.png # Grid of KDEs
-│ └── box_grid.png # Grid of boxplots
 ├── src/
-│ ├── preprocessing.py # Image and feature preprocessing
-│ ├── analysis.py # Statistical analysis, ML, and metrics
-│ ├── visualization.py # Automated plots for features and metrics
-│ └── notebooks/ # Jupyter notebooks for end-to-end demonstration
+│ ├── preprocessing/ # Image and feature preprocessing code and computational analisys
+│ ├── analysis/ # Statistical analysis, ML, and metrics code and computational analisys
+│ └── visualization/ # Automated plots for features and metrics code and computational analisys
 └── README.md # This file
-
+```
 
 ---
 
@@ -107,18 +98,6 @@ This project implements a complete pipeline for **speckle pattern analysis** fro
 
 ---
 
-## 🔎 Example Results Preview
-
-- **Classification accuracy (RF):**  
-  ![](results/tables/classification_metrics.csv)
-
-- **KDE plot example:**  
-  ![](results/figures/kde/kde_Feature_1.png)
-
-- **Boxplot grid:**  
-  ![](results/figures/box_grid.png)
-
----
 
 ## 📚 Further Notes
 
