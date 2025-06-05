@@ -74,13 +74,13 @@ This project implements a complete pipeline for **speckle pattern analysis** fro
    Place raw `.tiff` images in `data/raw/`.
 
 2. **Run Preprocessing:**  
-   Use `src/preprocessing.py` to generate processed images and feature CSVs.
+   Use `src/preprocessing/Preprocessing.py` to generate processed images and feature CSVs.
 
 3. **Run Analysis and Metrics:**  
-   Use `src/analysis.py` to compute statistics, ML metrics, and generate results in `/results/tables/`.
+   Use `src/analysis/Analysis.py` to compute statistics, ML metrics, and generate results in `/results/tables/`.
 
 4. **Run Visualization:**  
-   Use `src/visualization.py` or provided Jupyter notebooks to produce plots (saved in `/results/figures/`).
+   Use `src/visualization/visualization.py` or provided Jupyter notebooks to produce plots (saved in `/results/figures/`).
 
 5. **Jupyter Notebooks:**  
    For step-by-step demonstrations, open and run any notebook in `src/notebooks/`.
